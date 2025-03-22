@@ -41,6 +41,7 @@ struct ContentView: View {
                         }
                     }
                 }
+                .transition(.scale)
             } else if !showScore {
                 // Show welcome screen
                 VStack {
